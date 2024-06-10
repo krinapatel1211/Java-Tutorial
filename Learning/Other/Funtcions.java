@@ -1,6 +1,4 @@
-package Other;
 
-import java.util.Scanner;
 
 public class Funtcions {
     public static void printMyName(String name){

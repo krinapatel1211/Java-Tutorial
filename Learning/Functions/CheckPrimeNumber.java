@@ -1,4 +1,3 @@
-package Functions;
 
 public class CheckPrimeNumber {
     public static boolean checkPrimeNumber(int number){

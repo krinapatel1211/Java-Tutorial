@@ -1,4 +1,3 @@
-package Other;
 import java.util.*;
 import java.util.Iterator;
 
@@ -14,7 +13,7 @@ public class Hashsets {
         System.out.println(set.contains(1));
         System.out.println(set + " " + set.size());
 
-        Iterator it = set.iterator();
+        Iterator it = new Iterator();
         while(it.hasNext()){
             System.out.println(it.next());
         }

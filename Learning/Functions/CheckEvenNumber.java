@@ -1,4 +1,3 @@
-package Functions;
 
 public class CheckEvenNumber {
     public static boolean checkEvenNumber(int number){
