@@ -217,10 +217,9 @@ public class LinkedList_1 {
     public static void main(String[] args) {
         LinkedList_1 list = new LinkedList_1();
         list.addFirst("Krina");
-        list.addFirst("is");
-        list.addFirst("This");
+        list.addFirst("Krina");
         list.addLast("is");
-        list.addLast("This");
+        list.addLast("Krina");
         // list.addLast("Krina");
         // list.printLinkedList();
 

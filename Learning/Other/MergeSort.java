@@ -1,10 +1,8 @@
-package Other;
 public class MergeSort {
     public static void conquer(int arr[], int si, int mid, int ei){
         int merged[]= new int[ei-si+1];
         int indx1 = si;
         int indx2 = mid+1;
-        d
 
     }   
     public static void divide(int arr[], int si, int ei){
