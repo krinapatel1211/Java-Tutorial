@@ -11,11 +11,6 @@ public class RelativeSortArray1122 {
         int[] arr2 = {2,1,4,3,9,6};
         // create a map of  occurenece in arr1
         
-        Set<Integer> set = new HashSet<Integer>(Arrays.asList(arr1));
-        
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for (int v: set){
-            
-        }    
+         
     }
 }
