@@ -1,4 +1,3 @@
-package Other;
 
 public class XpowerN {
     /// Stack height == n

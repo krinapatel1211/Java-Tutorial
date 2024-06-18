@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.Iterator;
 
 public class Hashsets {
     public static void main(String[] args) {
@@ -13,11 +12,7 @@ public class Hashsets {
         System.out.println(set.contains(1));
         System.out.println(set + " " + set.size());
 
-        Iterator it = new Iterator();
-        while(it.hasNext()){
-            System.out.println(it.next());
-        }
-
+        
         // if(nums.length == 0){
         //     System.out.println("Empty list");
         // }
