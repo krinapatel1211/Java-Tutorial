@@ -1,4 +1,4 @@
-package Learning.SOmeMoreConcepts.ProgramsPractice;
+package Learning.SOmeMoreConcepts.ProgramsPractice.MultipleConcepts;
 
 public class BankAccount {
     private long accountNumber;

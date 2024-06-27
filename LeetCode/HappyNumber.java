@@ -1,32 +1,21 @@
 package LeetCode;
 
-import java.util.ArrayList;
-
 public class HappyNumber {
     public static void main(String[] args) {
-        int number =7;
-        ArrayList<Integer> arr = new ArrayList<>();
-        while (number!=1){
-            while(number0){
-                if (number<9){
-                    arr.add(number);
-                    break;
-                }
-                arr.add(number%10);
-                number /= 10;
-            }
-            System.out.println(arr);
-            number = 0;
-            for (int i: arr){
-                number += i*i;
-            }
-            arr.clear();
+        int number = 7;
+        System.out.println(isHappyNumber(number));
+        
+    }
+
+    public static int isHappyNumber(int number){
+        if (number <10){
+            return number;
         }
-        if (number == 1){
-            System.out.println("Happy Number");
+        int sum = 0;
+        String numString = String.valueOf(number);
+        for(char c : numString.toCharArray()){
+            sum += Math.pow((int) c-'0', 2);
         }
-        else{
-            System.out.println("Not a Happy Number");
-        }
+        return isHappyNumber(sum);
     }
 }

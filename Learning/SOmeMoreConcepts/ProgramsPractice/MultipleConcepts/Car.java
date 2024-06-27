@@ -1,4 +1,4 @@
-package Learning.SOmeMoreConcepts;
+package Learning.SOmeMoreConcepts.ProgramsPractice.MultipleConcepts;
 
 public class Car {
     int noOfWheels;

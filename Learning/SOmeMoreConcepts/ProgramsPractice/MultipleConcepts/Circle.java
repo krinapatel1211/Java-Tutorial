@@ -1,4 +1,4 @@
-package Learning.SOmeMoreConcepts.ProgramsPractice;
+package Learning.SOmeMoreConcepts.ProgramsPractice.MultipleConcepts;
 
 public class Circle extends Shape{
     private double radius;

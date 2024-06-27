@@ -1,4 +1,4 @@
-package Learning.SOmeMoreConcepts.ProgramsPractice;
+package Learning.SOmeMoreConcepts.ProgramsPractice.MultipleConcepts;
 
 public class ShapeTest {
     public static void main(String[] args) {

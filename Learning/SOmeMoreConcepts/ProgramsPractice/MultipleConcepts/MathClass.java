@@ -1,4 +1,4 @@
-package Learning.SOmeMoreConcepts;
+package Learning.SOmeMoreConcepts.ProgramsPractice.MultipleConcepts;
 
 public class MathClass {
     public static void main(String[] args) {

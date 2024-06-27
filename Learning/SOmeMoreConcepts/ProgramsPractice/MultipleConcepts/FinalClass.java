@@ -1,4 +1,4 @@
-package Learning.SOmeMoreConcepts;
+package Learning.SOmeMoreConcepts.ProgramsPractice.MultipleConcepts;
 
 public class FinalClass {
     final double PI = 3.1412;
